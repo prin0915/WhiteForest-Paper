@@ -1,0 +1,6 @@
+discord:
+  token: "MTQxMzQ0OTAyNDY3MzE1MzA3NQ.GIfKP3.2sQnIosDFeoBZI-ftxhGz33qRjbtLMd1OyNh8I"
+  channelId: "채널_ID"
+  activity: "마인크래프트 서버"
+  status: "ONLINE" # ONLINE, IDLE, DND 등
+  logJoinMessages: true

@@ -1,0 +1,14 @@
+respawn:
+  random-radius: 30000      # 랜덤 스폰 범위
+  base-cooldown: 60         # 기본 소생 시간 (초)
+  additional-per-death: 30  # 죽은 횟수당 추가 시간 (초)
+  revivalReductionTime: 30  #토템 시간 감소 (초)
+
+end-portal:
+  enabled: true
+  allowed-day: "SUNDAY" # MONDAY, TUESDAY ... SUNDAY
+  allowed-times:
+    - start: "18:00"
+      end: "19:00"
+    - start: "21:00"
+      end: "22:00"

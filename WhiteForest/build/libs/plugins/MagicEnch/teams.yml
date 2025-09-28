@@ -1,0 +1,27 @@
+pylon:
+  5368399f-d92b-42fd-9ea5-af82433f7915:
+    owner: 5368399f-d92b-42fd-9ea5-af82433f7915
+    member:
+    - 3c8559f8-4b79-4d1e-b496-b495b5450f96
+    pylonLocation:
+    - whiteForest,-3122,62,-5245
+  3c8559f8-4b79-4d1e-b496-b495b5450f96:
+    owner: 3c8559f8-4b79-4d1e-b496-b495b5450f96
+    member: []
+    pylonLocation: []
+  cb2586c5-d746-430a-911f-a47c8dd0e206:
+    owner: cb2586c5-d746-430a-911f-a47c8dd0e206
+    member: []
+    pylonLocation: []
+  c9c943ea-bfda-4a5a-a8e8-30b1cbc7024f:
+    owner: c9c943ea-bfda-4a5a-a8e8-30b1cbc7024f
+    member: []
+    pylonLocation: []
+  0dbb3935-fc33-416e-94f1-59cc6daca542:
+    owner: 0dbb3935-fc33-416e-94f1-59cc6daca542
+    member: []
+    pylonLocation: []
+  f8cc8abd-6ae6-4ca2-b547-6987b67f705b:
+    owner: f8cc8abd-6ae6-4ca2-b547-6987b67f705b
+    member: []
+    pylonLocation: []

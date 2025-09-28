@@ -1,0 +1,503 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 145
+npc:
+  '11':
+    metadata:
+      cached-skin-uuid: a1f55e6f-e671-49b4-ae49-ee116c919faa
+      player-skin-name: cjsdnjs0709
+      cached-skin-uuid-name: cjsdnjs0709
+    name: cjsdnjs0709
+    uuid: 64aaa7dd-0e00-4181-bc2c-ae80e0314d00
+    traits:
+      location:
+        bodyYaw: -43.807373
+        worldid: 060e62b3-7a4f-4a1c-8eaf-9a88b183068f
+        x: -60800.3133
+        y: -52.0
+        z: 30542.8284
+        yaw: -43.8074
+        pitch: 23.0999
+      type: PLAYER
+      skintrait:
+        signature: Dxv9Q3UaJhSRrfrhM32rCLD974SLAnpR5CPSv+egDzBZR3OU9oEDNEdMwMIsZSM4ibDa44pS6YuyFwXQHaFUyKoMwf8N+L/Idr8DQSPG9mObQ7WxskG+PpWrp41q3/+bi5Xvc03uF62kswY+lCDlm6H8T/dhHXlOTbc3VW08HXcRFy+Z3AXuzIWX9pxisnqZBdI19fkILj4pqL1F/DouhjseH0urq7/zZkMsIC5TSpkgcIjTefQNMIDMYvrQfrAcxZuAE/UACBZ2MJTXwpsPEDa2BFKP9HTJZACv2MTGBSnqOFqennxXtZasAme9ReWZf74l8RPI28MsIZgSzOXo7H9EfmZ1rJxly/RkOZ9Meu8ETM4jbIVBpyCoAtMk6SYcSkxcpWKN381qkHXFz1HmpqX2IsdDRFjNq9CMjD2u4JL4GSz+10tMOfuNc+K4yC2/uYVkZ0avfD4dOZ6Gs9OHkR/vk3I0z8jpfJGiQhWOU+Mddha+4nsNbSk2GWi4/5RSqhPOTy2jjIZNgoukiTYBNMWTFgFn+1cSfiBUVX06RR+zYECsf1dNhLAkL60253lTc6JImIP1ULcNIqpEN4y51DvJkALujoEAabnBtr2Jxx1/+AkbGxw59UH3xSqMes63GvM6IKqy3mNyNDmGJyZ94k+3qyN3hlP/5eNSZbiUdVw=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1NzE2NTI2MDMyOSwKICAicHJvZmlsZUlkIiA6ICJhMWY1NWU2ZmU2NzE0OWI0YWU0OWVlMTE2YzkxOWZhYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjanNkbmpzMDcwOSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YTdmZDkwNTBjMDZlN2NjODVkOTBkZjUwMDQyN2FmZTI5MTVlYjNhOWIyY2U3Y2MyZDVhMTY1YjJhNDBkN2YwIgogICAgfQogIH0KfQ==
+      inventory:
+        '0':
+          type: torch
+          amount: 6
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: spawned,scoreboardtrait,owner,skintrait,location,type,inventory,attributetrait,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '28':
+    metadata:
+      cached-skin-uuid: 0ad79891-8c49-476d-bf50-6cc034098a89
+      player-skin-name: siheonx7
+      cached-skin-uuid-name: siheonx7
+    name: siheonx7
+    uuid: b223e52f-4f26-49f0-bda4-3461535bf373
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+      skintrait:
+        signature: CO6VXwJhyhhzbgqK3rj5LLOKLwO6dTYfkQBftl+bR0yglgvgS906gU/eYij90jjGcGfsk46E35aEnI2McU6/UklJAnLBRRctKk2I5DAhJuxEcglRHeWAThZtXS3cc79NlPTHvtm1w5rlQkaMz9H9luyRLVf6ynSb+vmhYld9aDXUJrQ41BPxyUKh7aFbFLSx+G2+0RLuEZDdwMfX/v1nYIG3b8kQozz71TZNokMZb1fUNQHwDvqpEVhu+c30nGrS5Ru0VQaJeLgStSOu7/cYAC+1CCOAiPvJBkXxPLykRDB/jbjyRDDkZAsFagAi/bUPaP4EyxBnGolxY6LTPkGo5w9qYmj+vyBwx5r58LXLOWfzDWZuC41QS3S9WZ0AQws7/RiWfItI1A3cj5beV13+o5KoMN3ozwHK8JzmeCTuEGjCJ6PvErs2+s4i6qamImBMkaDgrw/zmzFDlN10/lofnjHyBLP7HaxiZqoL5qFQfSkaIIjNYxLvfNxtxIcHKh+9N2MHr+07M13dqkMHWU1nwjE9Kx4KaZBblQ5WtCe3BmtBl0r/cFcax8z24Vvglx2xb2XQFdAnN5lAJTHaX9hV1BB3zSqe1xKUxBSy1JcVmdnaHG1zb5OzXJKbdC+30NxO7jNEOCflXOJyhnQaIg6SdVbaRDEj7vppk/mu2NKmJPI=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1NzE3Njg0Nzg0NCwKICAicHJvZmlsZUlkIiA6ICIwYWQ3OTg5MThjNDk0NzZkYmY1MDZjYzAzNDA5OGE4OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaWhlb254NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NTcxMDEwYjQ4ZDA1MTQ0NWYyMzkyYWU4NWY5OTBlOTE1YWY5N2ZhOTZhNTRhYjI4ZjdhOWRlNDI3ZjU0ZDY4IgogICAgfQogIH0KfQ==
+      location:
+        bodyYaw: 159.00049
+        worldid: 060e62b3-7a4f-4a1c-8eaf-9a88b183068f
+        x: -761.0702
+        y: 79.0
+        z: -644.3352
+        yaw: 159.0005
+        pitch: 24.0
+      type: PLAYER
+    traitnames: scoreboardtrait,spawned,owner,skintrait,equipment,location,attributetrait,inventory,type,targetable,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '74':
+    metadata:
+      cached-skin-uuid: 1e1cd348-cec3-46a4-be5a-de7e694d73b4
+      player-skin-name: SeungBlack1212
+      cached-skin-uuid-name: seungblack1212
+    name: SeungBlack1212
+    uuid: 318f0c5d-51b8-47b2-8f7d-660a8cc370f7
+    traits:
+      skintrait:
+        signature: WkhNy4reHrN0wCai0uqFLjNtXGMQIhWMuz4PXCYGOVNumTl+cD0CFltl9iblA6sOAEqK/Y61CrqUTz/B2l6QaK2lI85/25FrRp0dYUGtqfdH2LU/0+QiMsLbuSs6WwQtRcfyxvwJSalP3USFC6JhGVhw0l7+BhMgrgQnMftB8WNbQw4SkdXnYjgntJimCISjIQT1CWrCFEWYlIWApZR49Aa2w87nVKOjfT3KklroiMLAzfGewDB/r4V9uITuwfge9n4Uu6FUglWB+sirTTlwr5Px2APxVD78CAlrtTCpV/4guUs7Y1oc1WhaFza+P+5ySDLpMVh+AjUHCoO8+MBGZxX9C1b6r+Iw4ROVh8QH+tPF9PXF2LeT8zs5rRMm06KMYhd7LYD0GyB2qlEQyLsRLH/0iK5mFptRjxcpqExwLTYwTMho1ipC5QKwd5ruwlzXycFDGGoYDYRssr9sgGu+Bu90w+G3UP0yVfaaJ/1HEG0ataxSN8w3SZalxe/ZMF5+tkCiHBrhuasU6rNqpuvlQB7VzNgitrw7Eghah95QCFm6cc+Gftj/9tzPXPOvomnuzYndoLp+pirvYyQyDDRafaiQ+YTlfC1oKwsroCwjUPVxC52NL6U3k+bXROl7c8iNpAgw22a2fVmzDwLq8I54Z0V/7JKKDFriaCQCWGLSWv8=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1NzI0NjE2MDM0OCwKICAicHJvZmlsZUlkIiA6ICIxZTFjZDM0OGNlYzM0NmE0YmU1YWRlN2U2OTRkNzNiNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXVuZ0JsYWNrMTIxMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMjgxNGVhYWZjMGQ0NzYyYzI5MjhjYmE5YWVhYzZiN2NiMWE5OWE2OTVjODAwZTBhODIzNjJhZTgzYjBhNjZjIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZDlkODJhYjE3ZmQ5MjAyMmRiZDRhODZjZGU0YzM4MmE3NTQwZTExN2ZhZTdiOWEyODUzNjU4NTA1YTgwNjI1IgogICAgfQogIH0KfQ==
+      type: PLAYER
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+      location:
+        bodyYaw: -44.253784
+        worldid: 060e62b3-7a4f-4a1c-8eaf-9a88b183068f
+        x: 20323.7
+        y: 63.0
+        z: 16928.7
+        yaw: -44.2538
+        pitch: 40.6422
+    traitnames: spawned,scoreboardtrait,owner,skintrait,location,type,inventory,attributetrait,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '103':
+    metadata:
+      cached-skin-uuid: cb2586c5-d746-430a-911f-a47c8dd0e206
+      player-skin-name: yeeeeeeeeeeees
+      cached-skin-uuid-name: yeeeeeeeeeeees
+    name: yeeeeeeeeeeees
+    uuid: 99e937c5-9820-42fd-9ae2-51bb519e7c10
+    traits:
+      equipment:
+        hand:
+          type: diamond_pickaxe
+          amount: 1
+          durability: 12
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V0ABJQdWJsaWNCdWtraXRWYWx1ZXN1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAABnQAF21pbmVjcmFmdDpiaW5kaW5nX2N1cnNldAAVbWluZWNyYWZ0OmZpcmVfYXNwZWN0dAAZbWluZWNyYWZ0OmZpcmVfcHJvdGVjdGlvbnQAEm1pbmVjcmFmdDppbXBhbGluZ3QAH21pbmVjcmFmdDpwcm9qZWN0aWxlX3Byb3RlY3Rpb250ABltaW5lY3JhZnQ6dmFuaXNoaW5nX2N1cnNldXEAfgAGAAAABnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABcQB+ABtzcQB+ABkAAAACcQB+ABxxAH4AHHEAfgAbc3EAfgAZAAAADHQAJXsKICAgICJtYWdpY2VuY2g6ZW5jaGFudF9jb3VudCI6IDEzCn0=
+        helmet:
+          type: beacon
+          amount: 1
+          editable_components:
+            display_name: §b파일런
+            edited: false
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAANYmxvY2tNYXRlcmlhbHVxAH4ABgAAAAR0AAhJdGVtTWV0YXQAC1RJTEVfRU5USVRZdACReyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLtjIzsnbzrn7AiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJhcXVhIn1dfXQABkJFQUNPTg==
+      location:
+        bodyYaw: 22.775635
+        worldid: 060e62b3-7a4f-4a1c-8eaf-9a88b183068f
+        x: -3127.3601
+        y: 62.0
+        z: -5243.9995
+        yaw: 22.7756
+        pitch: 10.0482
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      type: PLAYER
+      skintrait:
+        signature: ukxaFRTYrrHqwvI3j2n+XO18Sv+WFwr7T4E1VwA2P3Tb79vpafCFU9Hw1uuyRWj21rdVYos35I9BVabvRJskRbTlPyco85EZWibUqVrD/NarCR7KFffYa7GOB+FkqN9C6NLk8Zagtl7y08Ph8gy2p3WCGy0ITbZ4maRyU2IdgMiFnZZvRJUBoDSRdUjc9ztmXE5lP6kzD+UBdBvMKXClcSvn+/vNnkpGioo3yotFWVFekI+TZNmQkXHoI4BsIUIs4NQed73ITd/FAd1+elk7a0eXfTbXh7m+22U6bBj7QtCrv8SmEXv5MNswFApJy1CYS68pWzLRwNmcT/vvYrG2V6YHR+C2aRjAO+LkGVzeSYRt3nE1CCjFJj9pRzsfur6EiB95BKEySCVLrrWaHfRC5KqI6RIlaA140cLpDt2rjKEwx083gPq5d424gc4TWpxtSwhegcEUvnAI1QpNQK80YYJW1gJ0pK3zUslb7IGT7A9eiGyYfk21si/02hYwK0yuehhXqZYeAtpgw0XTCG4AHDkbOxCDdQUKlx7lk89GS+yBTcncapSW/6NAgsn2nH5+di0e2IVzMw+zlVQUVy7BdcIqcSBiXxnmSqFJ/RSqTkSIM0rkVBKRGXCTCJCiahk73Su1UvncgHYZ/SipT7BHmKgoEDQvJFIPlcNL00ySt6k=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1NzI1MjgxNTcxNCwKICAicHJvZmlsZUlkIiA6ICJjYjI1ODZjNWQ3NDY0MzBhOTExZmE0N2M4ZGQwZTIwNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5ZWVlZWVlZWVlZWVlcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82YWM2Y2EyNjJkNjdiY2ZiM2RiYzkyNGJhODIxNWExODE5NTQ5N2M3ODAwNThhNTc0OWRlNjc0MjE3NzIxODkyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      inventory:
+        '0':
+          type: diamond_pickaxe
+          amount: 1
+          durability: 12
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V0ABJQdWJsaWNCdWtraXRWYWx1ZXN1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgADdXEAfgAGAAAABnQAF21pbmVjcmFmdDpiaW5kaW5nX2N1cnNldAAVbWluZWNyYWZ0OmZpcmVfYXNwZWN0dAAZbWluZWNyYWZ0OmZpcmVfcHJvdGVjdGlvbnQAEm1pbmVjcmFmdDppbXBhbGluZ3QAH21pbmVjcmFmdDpwcm9qZWN0aWxlX3Byb3RlY3Rpb250ABltaW5lY3JhZnQ6dmFuaXNoaW5nX2N1cnNldXEAfgAGAAAABnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABcQB+ABtzcQB+ABkAAAACcQB+ABxxAH4AHHEAfgAbc3EAfgAZAAAADHQAJXsKICAgICJtYWdpY2VuY2g6ZW5jaGFudF9jb3VudCI6IDEzCn0=
+    traitnames: spawned,scoreboardtrait,owner,skintrait,equipment,location,attributetrait,type,inventory,targetable,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '117':
+    metadata:
+      cached-skin-uuid: c9c943ea-bfda-4a5a-a8e8-30b1cbc7024f
+      player-skin-name: ddoroo
+      cached-skin-uuid-name: ddoroo
+    name: ddoroo
+    uuid: 77301028-97e7-42ee-8b2d-a42fad0b6219
+    traits:
+      type: PLAYER
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      equipment:
+        boots:
+          type: diamond_boots
+          amount: 1
+          durability: 59
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAFQVJNT1JzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAOw==
+        chestplate:
+          type: diamond_chestplate
+          amount: 1
+          durability: 59
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAFQVJNT1JzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAOw==
+        hand:
+          type: cobblestone
+          amount: 30
+        helmet:
+          type: diamond_helmet
+          amount: 1
+          durability: 59
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAFQVJNT1JzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAOw==
+        leggings:
+          type: diamond_leggings
+          amount: 1
+          durability: 18
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAFQVJNT1JzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAEg==
+        off_hand:
+          type: shield
+          amount: 1
+          durability: 168
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAGU0hJRUxEc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAKg=
+      skintrait:
+        signature: liA2MThP04brE5NX9NjBH1vGfpqH24ZTIbGbvjOdUxakvWXfTDgls4HpquwBH0/FFND8msQHjATLA7wDq1WeJeWGKU0n2AlU8bsbO3JhZFPnUqyNDicfeR5Eo+dspYpyypicV4iGV1Hu6VxuaLKfTaN3HZ9KgLp+LoxGqw6bss8d2kaabrZrZqgKGd6IFD7XRcKQMnSuQcaQM6QTkiVH9sFYjmdLR79QNw3vNx1ukfa6ew6jGQezaZiS/IdTM0pcuzvs3WFLKrWufGOcIAR8zl0h/gP6sAB7b8hZIjkZLrgJ6EiJLPnTYkMvzSy/0WniIrHOkJL34KeZnhgSG+VAYiFF7+TtaBQ5Nn2JRnqUeobdJzTcVRGl/ElZb1uoC8/gmPg4YbVL28xIvYskacZ6hjoXYHwI15LnUg0ehwLQatQuAO8zLCGLSF5mPI/NDN2g2nBBS3lYGIv1z7V2hMWif3XQcigqNUBXNYvl+flwbTEkn1kSJHv8Cs65Oiuqim3/Q9i7oUSniSeJaAMw/YqAP2j5tiyysnzSI0MfjUVJ21KtBUw4RPo7jzcQok/jLkggFqHX2Rp+RHFKwmH9RmyMScqyJwlm8yKvMqtKofeJoCI/1jCSDOoRfEKjo6ryrQeqlTUUZMb2bWgipQPh2Bwkm37ogFiWMFMifothkwsoCHU=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Nzc2OTUxODYxNiwKICAicHJvZmlsZUlkIiA6ICJjOWM5NDNlYWJmZGE0YTVhYThlODMwYjFjYmM3MDI0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZG9yb28iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTcwMTA3Mzk2ZmI1MGUxNTUwYWJjNTRkNmI1ZDlkZWFkNGRkN2QxOGNjMWI2Y2I1NzM3MDRmN2Y3MTA2Yzc2MSIKICAgIH0KICB9Cn0=
+      inventory:
+        '0':
+          type: cobblestone
+          amount: 30
+      location:
+        bodyYaw: -41.419067
+        worldid: 060e62b3-7a4f-4a1c-8eaf-9a88b183068f
+        x: 48629.3183
+        y: 63.0
+        z: 60122.3
+        yaw: -41.4191
+        pitch: 46.7205
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+    traitnames: scoreboardtrait,spawned,owner,skintrait,equipment,location,type,inventory,attributetrait,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '119':
+    metadata:
+      cached-skin-uuid: dd7a30b0-d321-446f-bbdc-a31f6409e24d
+      player-skin-name: HaNaBi963
+      cached-skin-uuid-name: hanabi963
+    name: HaNaBi963
+    uuid: ceab07bf-e6e1-4884-8c75-038cc09aeb87
+    traits:
+      type: PLAYER
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      equipment:
+        chestplate:
+          type: iron_chestplate
+          amount: 1
+          durability: 76
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAFQVJNT1JzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAATA==
+        hand:
+          type: iron_sword
+          amount: 1
+          durability: 171
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAACr
+        leggings:
+          type: golden_leggings
+          amount: 1
+          durability: 96
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNyADdjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUJpTWFwJFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAB4cQB+AAN1cQB+AAYAAAABdAAfbWluZWNyYWZ0OnByb2plY3RpbGVfcHJvdGVjdGlvbnVxAH4ABgAAAAFzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAA3NxAH4AFAAAAGA=
+      skintrait:
+        signature: pnze2w/yN54WjClnrB/vgyU56O2H8iy4HvDv4jqaZp03YCZsTwn465vo1upCkD2ae3OLkduvPoJolFCWDWIREdxl5UJD19/0Rr7Wt1K+WaCkvoWQqb0aguSHxGHhuHAgM1bQ/VcZiJnETTV8IAnX6yQjv/upswPnJ26nSJ3EatumqJs5VRp7ljgdhLwgfeYBGE1PEdyAAZfCzHX3+jqJDgGDxKywZl6oL3hvol57NkDhetxNAQ+LMBOAfxDO4gyPaX+gdU329hmAaijzDNe2ngZhDlm8tp2jcP61ulkSbTUa8/E9cLZtjsiLpCcMUJ27YVVsMXbain8dMxnaWJ7MmQBqx76gZvpc3uhR6Ic4WkVNGOg9nHsVPdG4AQ0cTWHN2QZd09oux1iaet967t8qHD/AxpGrht/MZEI/MRtFyITld/pBwJHMWUj0r80xHBIf9wJvGzYBvtGE71rDQD9X+h45gu8KBw75msv9ehW7cQWRNg1hYGnOCWDpOWgjByqK7Ibo8b8IzfMH7f+pGr2E5lX+QRB2rHX7JqV1yqPfXz29i2OqzynqS2VvFOhn6bqMmGxweW99We0WeFpFfl/iD5KA7NiPRcqGoYaaC7PT/LIIaNDadcgrNwuOG5Vit0XbL4dlSkMEklyRX1S3boPLEZHHccuf3IQlzvn6ZCDyfZc=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Nzc3MDg3MjI3OCwKICAicHJvZmlsZUlkIiA6ICJkZDdhMzBiMGQzMjE0NDZmYmJkY2EzMWY2NDA5ZTI0ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYU5hQmk5NjMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFmNDc3ZWIxYTdiZWVlNjMxYzJjYTY0ZDA2ZjhmNjhmYTkzYTMzODZkMDQ0NTJhYjI3ZjQzYWNkZjFiNjBjYiIKICAgIH0KICB9Cn0=
+      inventory:
+        '0':
+          type: iron_sword
+          amount: 1
+          durability: 171
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAACr
+      location:
+        bodyYaw: 134.40045
+        worldid: 060e62b3-7a4f-4a1c-8eaf-9a88b183068f
+        x: -11436.8888
+        y: 125.0
+        z: 237.1962
+        yaw: 134.4005
+        pitch: 19.5
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+    traitnames: scoreboardtrait,spawned,owner,skintrait,equipment,location,type,inventory,attributetrait,targetable,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '133':
+    metadata:
+      cached-skin-uuid: b60fec36-ef4c-4104-9c30-816dc2c71c0a
+      player-skin-name: Roni_yj
+      cached-skin-uuid-name: roni_yj
+    name: Roni_yj
+    uuid: 464d2a56-bee4-421e-949a-f133eedea5c9
+    traits:
+      type: PLAYER
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      equipment:
+        boots:
+          type: diamond_boots
+          amount: 1
+          durability: 239
+          editable_components:
+            lore: §6★★★★☆☆☆☆☆☆
+            edited: false
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAAJbWV0YS10eXBldAAEbG9yZXQAE2F0dHJpYnV0ZS1tb2RpZmllcnN0AAZEYW1hZ2V0ABJQdWJsaWNCdWtraXRWYWx1ZXN1cQB+AAYAAAAGdAAISXRlbU1ldGF0AAVBUk1PUnNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdACmeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLimIXimIXimIXimIXimIbimIbimIbimIbimIbimIYiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXhzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAR0ABRtaW5lY3JhZnQ6bWF4X2hlYWx0aHNxAH4AEQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAh0AAZhbW91bnR0AARzbG90dAAJb3BlcmF0aW9udAADa2V5dXEAfgAGAAAABXQAJm9yZy5idWtraXQuYXR0cmlidXRlLkF0dHJpYnV0ZU1vZGlmaWVyc3IAEGphdmEubGFuZy5Eb3VibGWAs8JKKWv7BAIAAUQABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwQBAAAAAAAAB0AARmZWV0c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4AIwAAAAB0ABptYWdpY2VuY2g6Ym9vdHNfbWF4X2hlYWx0aHh0AA9taW5lY3JhZnQ6YXJtb3JzcQB+ABEAAAABdwQAAAABc3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIcQB+ABxxAH4AHXEAfgAecQB+AB91cQB+AAYAAAAFcQB+ACFzcQB+ACJACAAAAAAAAHEAfgAlcQB+ACd0ABVtYWdpY2VuY2g6Ym9vdHNfYXJtb3J4dAAZbWluZWNyYWZ0OmFybW9yX3RvdWdobmVzc3NxAH4AEQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAhxAH4AHHEAfgAdcQB+AB5xAH4AH3VxAH4ABgAAAAVxAH4AIXNxAH4AIkAAAAAAAAAAcQB+ACVxAH4AJ3QAH21hZ2ljZW5jaDpib290c19hcm1vcl90b3VnaG5lc3N4dAAYbWluZWNyYWZ0Om1vdmVtZW50X3NwZWVkc3EAfgARAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAVxAH4ACHEAfgAccQB+AB1xAH4AHnEAfgAfdXEAfgAGAAAABXEAfgAhc3EAfgAiP764UeuFHrlxAH4AJXEAfgAndAAebWFnaWNlbmNoOmJvb3RzX21vdmVtZW50X3NwZWVkeHgAc3EAfgAmAAAA73QAInsKICAgICJtYWdpY2VuY2g6Zm9yY2VfbGV2ZWwiOiA0Cn0=
+        chestplate:
+          type: golden_chestplate
+          amount: 1
+          durability: 85
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNyADdjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUJpTWFwJFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAB4cQB+AAN1cQB+AAYAAAABdAAabWluZWNyYWZ0OmJsYXN0X3Byb3RlY3Rpb251cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAARzcQB+ABQAAABV
+        leggings:
+          type: diamond_leggings
+          amount: 1
+          durability: 62
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0AAZEYW1hZ2V0ABJQdWJsaWNCdWtraXRWYWx1ZXN1cQB+AAYAAAAFdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAV0ABBtaW5lY3JhZnQ6YnJlYWNodAAZbWluZWNyYWZ0OmZpcmVfcHJvdGVjdGlvbnQAEm1pbmVjcmFmdDpwaWVyY2luZ3QAD21pbmVjcmFmdDpwb3dlcnQAFW1pbmVjcmFmdDpzd2lmdF9zbmVha3VxAH4ABgAAAAVzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAnEAfgAac3EAfgAYAAAAAXEAfgAbc3EAfgAYAAAAA3NxAH4AGAAAAD50ACR7CiAgICAibWFnaWNlbmNoOmVuY2hhbnRfY291bnQiOiA0Cn0=
+        off_hand:
+          type: shield
+          amount: 1
+          durability: 205
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAGU0hJRUxEc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAM0=
+      skintrait:
+        signature: DaQii3EiHj5jrrHM0MXG7b2tahyaC3g3AJXJXJS+afjbsI/MmWzDwnG43N08tCkkmU7pnt0gmjZM9PDVmlsYiSv/JQX6IA4CCZz2fAdOS+BxCytGt5rZlQ+31zoBMRAfith7kO2f6twKEQGZmHYxEFbQGBgtmQ5z940Un44St7Zt3sWk+y9eZCqe007DbXX+XDTxRL0VJw01EkYLrCaugn8dJ5KKlrG2pBC6+nLF0JQMgP0v2W+3xDQ+yv4IkdfCyQf/aS055hUV+zp3hft2XJofYkdwz5+7ojIibKJRhC8N19F16tPLDXXV5ItffzzAIrhDI6bZi4Qalc5sYtJb07/Vfo0p+TQ9UqwGUDzLtl92jfPTYbo8seTDYeeHc5pUD/yEbjfAA5B4Cc8KPbreaapvzwC9xsgAn+EmXzhcR/OLLiuST5uhKIZyCpiPqB1cnVWGFHUXpfKNtjvmC3nDbYZVNHgbTew20r5AhHcBCwh12n7sP3B8mJjZYM3KgnFhyp+GshYu6FzqdiM/G7Yk78SSHpmJGvC6ysYHhKK9DbA5OsNC8LeLvj626Mx//JyaBkHgAMtQy/mUha++wV2lHCnlyGDzw64a5vNtia81lmu3Uzzxxue23OctJbuRnW9Bi3XKCzhxHyN/ep/ToLa6RAqqFmPxyCOx4x74N4/3ZjA=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Nzc3NjAwMTMyNSwKICAicHJvZmlsZUlkIiA6ICJiNjBmZWMzNmVmNGM0MTA0OWMzMDgxNmRjMmM3MWMwYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSb25pX3lqIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZlN2QxOWI1NDhiOTMzZjllY2QzZmI0OTE2M2Q3ZDU4MTIyODhkMmRjODhlZTBkZWFkMzhjZDllMTJmMjZjMzgiCiAgICB9CiAgfQp9
+      location:
+        bodyYaw: 167.97191
+        worldid: 060e62b3-7a4f-4a1c-8eaf-9a88b183068f
+        x: 23428.3
+        y: -24.0
+        z: -1501.3
+        yaw: 167.9719
+        pitch: 9.9499
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+    traitnames: scoreboardtrait,spawned,owner,skintrait,equipment,location,type,inventory,attributetrait,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '134':
+    metadata:
+      cached-skin-uuid: 5368399f-d92b-42fd-9ea5-af82433f7915
+      player-skin-name: jihyuk0413
+      cached-skin-uuid-name: jihyuk0413
+    name: jihyuk0413
+    uuid: 195c33aa-904c-4f56-b5df-d114c00aae60
+    traits:
+      inventory:
+        '0':
+          type: torch
+          amount: 16
+      equipment:
+        boots:
+          type: diamond_boots
+          amount: 1
+          durability: 58
+          editable_components:
+            display_name: §dprin0915의 신발
+            edited: false
+            lore: §6★★★★★★★★★★<br>§c공중 대시 가능
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQACGVuY2hhbnRzdAATYXR0cmlidXRlLW1vZGlmaWVyc3QABkRhbWFnZXQAElB1YmxpY0J1a2tpdFZhbHVlc3VxAH4ABgAAAAh0AAhJdGVtTWV0YXQABUFSTU9SdACieyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiJwcmluMDkxNeydmCDsi6DrsJwiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJsaWdodF9wdXJwbGUifV19c3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAJ3BAAAAAJ0AKZ7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IuKYheKYheKYheKYheKYheKYheKYheKYheKYheKYhSIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImdvbGQifV19dACbeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLqs7XspJEg64yA7IucIOqwgOuKpSIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6InJlZCJ9XX14c3EAfgADdXEAfgAGAAAACXQAEm1pbmVjcmFmdDppbXBhbGluZ3QAE21pbmVjcmFmdDprbm9ja2JhY2t0ABRtaW5lY3JhZnQ6cHJvdGVjdGlvbnQAD21pbmVjcmFmdDpwdW5jaHQAFm1pbmVjcmFmdDpxdWlja19jaGFyZ2V0ABFtaW5lY3JhZnQ6cmlwdGlkZXQAFG1pbmVjcmFmdDpzaWxrX3RvdWNodAAUbWluZWNyYWZ0OnVuYnJlYWtpbmd0ABRtaW5lY3JhZnQ6d2luZF9idXJzdHVxAH4ABgAAAAlzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAnEAfgAmcQB+ACZzcQB+ACQAAAABc3EAfgAkAAAAA3EAfgAncQB+ACdxAH4AJnEAfgAnc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAEdAAUbWluZWNyYWZ0Om1heF9oZWFsdGhzcQB+ABQAAAABdwQAAAABc3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIdAAGYW1vdW50dAAEc2xvdHQACW9wZXJhdGlvbnQAA2tleXVxAH4ABgAAAAV0ACZvcmcuYnVra2l0LmF0dHJpYnV0ZS5BdHRyaWJ1dGVNb2RpZmllcnNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4AJUAkAAAAAAAAdAAEZmVldHNxAH4AJAAAAAB0ABptYWdpY2VuY2g6Ym9vdHNfbWF4X2hlYWx0aHh0AA9taW5lY3JhZnQ6YXJtb3JzcQB+ABQAAAABdwQAAAABc3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIcQB+ADFxAH4AMnEAfgAzcQB+ADR1cQB+AAYAAAAFcQB+ADZzcQB+ADdACAAAAAAAAHEAfgA5cQB+ADp0ABVtYWdpY2VuY2g6Ym9vdHNfYXJtb3J4dAAZbWluZWNyYWZ0OmFybW9yX3RvdWdobmVzc3NxAH4AFAAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAhxAH4AMXEAfgAycQB+ADNxAH4ANHVxAH4ABgAAAAVxAH4ANnNxAH4AN0AAAAAAAAAAcQB+ADlxAH4AOnQAH21hZ2ljZW5jaDpib290c19hcm1vcl90b3VnaG5lc3N4dAAYbWluZWNyYWZ0Om1vdmVtZW50X3NwZWVkc3EAfgAUAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAVxAH4ACHEAfgAxcQB+ADJxAH4AM3EAfgA0dXEAfgAGAAAABXEAfgA2c3EAfgA3P8MzMzMzMzRxAH4AOXEAfgA6dAAebWFnaWNlbmNoOmJvb3RzX21vdmVtZW50X3NwZWVkeHgAc3EAfgAkAAAAOnQARnsKICAgICJtYWdpY2VuY2g6ZW5jaGFudF9jb3VudCI6IDY4LAogICAgIm1hZ2ljZW5jaDpmb3JjZV9sZXZlbCI6IDEwCn0=
+        hand:
+          type: torch
+          amount: 16
+        helmet:
+          type: iron_chestplate
+          amount: 1
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAIZW5jaGFudHN0ABJQdWJsaWNCdWtraXRWYWx1ZXN1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVBUk1PUnNxAH4AA3VxAH4ABgAAAAx0ABdtaW5lY3JhZnQ6ZGVwdGhfc3RyaWRlcnQAGW1pbmVjcmFmdDpmaXJlX3Byb3RlY3Rpb250ABJtaW5lY3JhZnQ6aW1wYWxpbmd0ABNtaW5lY3JhZnQ6a25vY2tiYWNrdAARbWluZWNyYWZ0Omxvb3Rpbmd0ABltaW5lY3JhZnQ6bHVja19vZl90aGVfc2VhdAARbWluZWNyYWZ0Om1lbmRpbmd0ABJtaW5lY3JhZnQ6cGllcmNpbmd0AB9taW5lY3JhZnQ6cHJvamVjdGlsZV9wcm90ZWN0aW9udAAVbWluZWNyYWZ0OnJlc3BpcmF0aW9udAATbWluZWNyYWZ0OnNoYXJwbmVzc3QAFG1pbmVjcmFmdDp1bmJyZWFraW5ndXEAfgAGAAAADHNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAADcQB+ACBzcQB+AB4AAAAFc3EAfgAeAAAAAXNxAH4AHgAAAAJxAH4AInEAfgAicQB+ACJxAH4AIHEAfgAgcQB+ACBxAH4AI3QAJXsKICAgICJtYWdpY2VuY2g6ZW5jaGFudF9jb3VudCI6IDExCn0=
+        leggings:
+          type: iron_leggings
+          amount: 1
+          durability: 5
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAFQVJNT1JzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAABQ==
+        off_hand:
+          type: shield
+          amount: 1
+          durability: 81
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAGU0hJRUxEc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAFE=
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+      location:
+        bodyYaw: -50.92368
+        worldid: 060e62b3-7a4f-4a1c-8eaf-9a88b183068f
+        x: -3122.6758
+        y: 77.0
+        z: -5233.899
+        yaw: -50.9237
+        pitch: 1.95
+      type: PLAYER
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      skintrait:
+        signature: qoj8ISDb5C8Vmgzq/xyrJGp+Lcgfp15XuIsfQe7q9GJXrOQEcBv/li5k2h/Aeaab2bYVT8k0ztshzsyjfmYtM318WCLiHsOzkVNd2j3/XPqMf+Da+1YVtDSwWoTUlC9tMPDAGwmp3ElX/lDD67U6daQkBPU3JQURBW0lTr+uQHJ1R2N1VkjDIlpGHddZJwH3tbpVzVCaXVyoGOy3qAPRZmKDLaWoOK6b/K+91WmGw2gY8IRmHRh2YzduwjRcsD/DP1V6NoxzwZdb9m4yAeXi6xxyvfQTO/m4hWBowmDrXJkop3ZROjTxs4QLXKpRcR4mSp63QAvQTjI91sfwMq2c30qH2QpbLAwB2bcz9AUg5tLdx9kzhbMxC4MqiTECS24sEhr1Nno7Ziw/HUFr9xdIMR8freAI8jmFezckO97v4vzQUjmeCerPV+qRX+alPcJK2dND+EC/NHfCA8smVLfL1C+mhIv9hZAgNjoTLAnu+UqLbJfkAR+AiwpTKUVShBZjwBR0RFxlb2EkXzFNMoU9i4tERqkpVjEoAJxC0fBvgzC0JBb8+Ni76L5kdenEv3sTP/JMzu3Ev578DoPp/uBGiCAIOMPyGVLdNuqU5D7ADM/y9mtScCXEVrpklFUqiSGZ4bK45oCuIIFLaVnzGtC3QWIP3+vhiJ5900z+9cyayjE=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Nzg0ODI0NjE2MSwKICAicHJvZmlsZUlkIiA6ICI1MzY4Mzk5ZmQ5MmI0MmZkOWVhNWFmODI0MzNmNzkxNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJqaWh5dWswNDEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0MmJlYjU1Y2ZmM2UzZGJkOGEyYjk2NzM2YTRhYjg4M2FlZDc3MWU5ZjhkODZiNTUzNDg1NGJiMDhmNjI1MTYiCiAgICB9CiAgfQp9
+    traitnames: spawned,scoreboardtrait,owner,skintrait,equipment,location,inventory,attributetrait,type,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '140':
+    metadata:
+      cached-skin-uuid: 0dbb3935-fc33-416e-94f1-59cc6daca542
+      player-skin-name: MP_GIO
+      cached-skin-uuid-name: mp_gio
+    name: MP_GIO
+    uuid: 10bdd54d-0e53-4d48-abb7-5863ce140756
+    traits:
+      type: PLAYER
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      skintrait:
+        signature: a+yAW0hDk5bid/oGtxAwlCWUoErFMBN+648GoHz1IaiwtVn5+qDRZGWicCuDeruxGxKZjmdExzeFhNdgxS9yuhNyvAaXRpBsTSioTkqfotZLi6RQqOroZGwVlkiXImTY2zVMEwGqFqCQLHior4FrbPjrZx+RPZBYDl8KVNWCBIdZT5KHLgfqJzftEMbLj+9owX6dZSXfBq00JgHpYzXAgRxY1F95PFMoIMonf9wCfIJlioeqMvJZTpJ6/7riQQPsimwHLR0mz4s0NJY1HGH++NoayRj8VFxcke1aR7JzpOzVDm7TQCYtYjbKl9UfpjsJSLoVWkJTB7EsjqEOa+Rcd3uvspx2mF3oh0TYqUJseV/6MA6DIXUfbB9ZL9NX6AgRzGecLIwzLywV2RGgTpxCZgMwR7MOjStFvdzzYT80uq/bvBKJ0z1Tm9MBdjU+k2N6rgTF31pZ1riYZTCI7raxCwJOOCpMs9rXYtzw3fdfny9gNxrvzaP8INRKR3NU3X3httc0ddiAo9uaRPc+ZzwUPv7XldpxSsIk+8go0Bgn+veqRqfo9ZpR+cY05EkLl5wcKNiZkGDaY9pdvCXsGK0drLDPmZMzKCLdoPIVuBaL8lsLj4c876ZZiISqoRBrAUNhDnm3EYDzCYQQvHPx5UdwRyXp3zhjwNKfG5OKZdVWxYQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Nzg1MjEwNzAzNCwKICAicHJvZmlsZUlkIiA6ICIwZGJiMzkzNWZjMzM0MTZlOTRmMTU5Y2M2ZGFjYTU0MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNUF9HSU8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2IzOTRjZDZiMDg2ODVjOWMyOTdlMDc5ZjUzMjc4Nzc5NjExMGVjZDFlN2NiZWMwMmFlODkyMjlmZTRlNzBhNSIKICAgIH0KICB9Cn0=
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+      location:
+        bodyYaw: -61.319214
+        worldid: 060e62b3-7a4f-4a1c-8eaf-9a88b183068f
+        x: 1445.4955
+        y: 65.5625
+        z: 1175.2181
+        yaw: -61.3192
+        pitch: 66.3
+      equipment:
+        chestplate:
+          type: iron_chestplate
+          amount: 1
+          durability: 12
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAFQVJNT1JzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAADA==
+        off_hand:
+          type: shield
+          amount: 1
+    traitnames: scoreboardtrait,spawned,skintrait,equipment,location,type,attributetrait,inventory,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '144':
+    metadata:
+      cached-skin-uuid: f8cc8abd-6ae6-4ca2-b547-6987b67f705b
+      player-skin-name: Happybeargel
+      cached-skin-uuid-name: happybeargel
+    name: Happybeargel
+    uuid: 85a3ed9e-fd35-45cb-8708-7bbcc7f27936
+    traits:
+      location:
+        bodyYaw: 91.42218
+        worldid: 060e62b3-7a4f-4a1c-8eaf-9a88b183068f
+        x: 12.4924
+        y: 68.0
+        z: 208.7
+        yaw: 91.4222
+        pitch: 17.6081
+      skintrait:
+        signature: HNjePEKnphkPPBurlYebpHNxffLYLYqe1r7aDyDtBdjM6IM9UNb1CU9wgewLDzLyRzXUlP2n1a1gApcHA9rhe76qu12rlkYLQFvEfseAvfQfB0WD7iMBJf7SPqvlro38NJnoEGjkr0Q4YygvIEQA5nTXVUarA4ASsC4XI06CwOfVGFuuYJRMGP7+7G8iXkXXVG6VPcPksoLV+eZEXWsF5QMItQtdQyfIvTGaMcMcKu9GwheOipslK5inUoZnXramIf+MyISEgvZHSPAcbw6XSfJKPR0tZDCw1hHSylEAQahV0772xVpxcYXeYxQwgxuCBSpjbNrGzBHYiBHFfnB0YGrh3Cnsi/7V9J2yU3qDhcxnNiIPwSgKxgREi+1komZeJH7ek00BWnINaaaUxlTZOyVm8WUukXM/dPywdkcEihftHysrH5Lcnv9/6mZT7c5+JfXJwYp0DeNKrWIp1Nra+iIVRrQZpDBxWioPzYOW1VUixsITID7qsa3ApWVA1gPG9hAHulB9h1je/3ndUnjSxFM/TTaNU7HZHcWRs7xCY0BY3omXG/i/W1gu4ViKoeQlVPmc2kPee7uow4idSnXRtgF/KBHF6e+v+JabCPQaOWcgw+2ViFoLtEWytjpKkBWqbySY19tnwDtImoC8hAnJLP4PhoZI/HLPu9CuZEPdG3I=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1ODI3MzM3MTUzNCwKICAicHJvZmlsZUlkIiA6ICJmOGNjOGFiZDZhZTY0Y2EyYjU0NzY5ODdiNjdmNzA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYXBweWJlYXJnZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ2ZGE1MDQwMzIwNTljMjQ1NDYzYzY4ZTRkOGRmYjk5MWU2ZmI3NjBmOGNjNWVlZmRlZWIzOTA2Y2Q2M2RmYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      attributetrait:
+        attributes:
+          minecraft:waypoint_transmit_range: 0.0
+      equipment:
+        boots:
+          type: diamond_boots
+          amount: 1
+          durability: 246
+          editable_components:
+            lore: §6★★★★★☆☆☆☆☆
+            edited: false
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAAJbWV0YS10eXBldAAEbG9yZXQAE2F0dHJpYnV0ZS1tb2RpZmllcnN0AAZEYW1hZ2V0ABJQdWJsaWNCdWtraXRWYWx1ZXN1cQB+AAYAAAAGdAAISXRlbU1ldGF0AAVBUk1PUnNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdACmeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLimIXimIXimIXimIXimIXimIbimIbimIbimIbimIYiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXhzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAR0ABRtaW5lY3JhZnQ6bWF4X2hlYWx0aHNxAH4AEQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAh0AAZhbW91bnR0AARzbG90dAAJb3BlcmF0aW9udAADa2V5dXEAfgAGAAAABXQAJm9yZy5idWtraXQuYXR0cmlidXRlLkF0dHJpYnV0ZU1vZGlmaWVyc3IAEGphdmEubGFuZy5Eb3VibGWAs8JKKWv7BAIAAUQABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwQBQAAAAAAAB0AARmZWV0c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4AIwAAAAB0ABptYWdpY2VuY2g6Ym9vdHNfbWF4X2hlYWx0aHh0AA9taW5lY3JhZnQ6YXJtb3JzcQB+ABEAAAABdwQAAAABc3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIcQB+ABxxAH4AHXEAfgAecQB+AB91cQB+AAYAAAAFcQB+ACFzcQB+ACJACAAAAAAAAHEAfgAlcQB+ACd0ABVtYWdpY2VuY2g6Ym9vdHNfYXJtb3J4dAAZbWluZWNyYWZ0OmFybW9yX3RvdWdobmVzc3NxAH4AEQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAhxAH4AHHEAfgAdcQB+AB5xAH4AH3VxAH4ABgAAAAVxAH4AIXNxAH4AIkAAAAAAAAAAcQB+ACVxAH4AJ3QAH21hZ2ljZW5jaDpib290c19hcm1vcl90b3VnaG5lc3N4dAAYbWluZWNyYWZ0Om1vdmVtZW50X3NwZWVkc3EAfgARAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAVxAH4ACHEAfgAccQB+AB1xAH4AHnEAfgAfdXEAfgAGAAAABXEAfgAhc3EAfgAiP8AAAAAAAABxAH4AJXEAfgAndAAebWFnaWNlbmNoOmJvb3RzX21vdmVtZW50X3NwZWVkeHgAc3EAfgAmAAAA9nQAInsKICAgICJtYWdpY2VuY2g6Zm9yY2VfbGV2ZWwiOiA1Cn0=
+        chestplate:
+          type: diamond_chestplate
+          amount: 1
+          durability: 250
+          editable_components:
+            lore: §6★☆☆☆☆☆☆☆☆☆
+            edited: false
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAAJbWV0YS10eXBldAAEbG9yZXQAE2F0dHJpYnV0ZS1tb2RpZmllcnN0AAZEYW1hZ2V0ABJQdWJsaWNCdWtraXRWYWx1ZXN1cQB+AAYAAAAGdAAISXRlbU1ldGF0AAVBUk1PUnNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdACmeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLimIXimIbimIbimIbimIbimIbimIbimIbimIbimIYiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXhzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAN0ABRtaW5lY3JhZnQ6bWF4X2hlYWx0aHNxAH4AEQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAh0AAZhbW91bnR0AARzbG90dAAJb3BlcmF0aW9udAADa2V5dXEAfgAGAAAABXQAJm9yZy5idWtraXQuYXR0cmlidXRlLkF0dHJpYnV0ZU1vZGlmaWVyc3IAEGphdmEubGFuZy5Eb3VibGWAs8JKKWv7BAIAAUQABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwP/AAAAAAAAB0AAVhcm1vcnNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cQB+ACMAAAAAdAAfbWFnaWNlbmNoOmNoZXN0cGxhdGVfbWF4X2hlYWx0aHh0AA9taW5lY3JhZnQ6YXJtb3JzcQB+ABEAAAABdwQAAAABc3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIcQB+ABxxAH4AHXEAfgAecQB+AB91cQB+AAYAAAAFcQB+ACFzcQB+ACJAIAAAAAAAAHEAfgAlcQB+ACd0ABptYWdpY2VuY2g6Y2hlc3RwbGF0ZV9hcm1vcnh0ABltaW5lY3JhZnQ6YXJtb3JfdG91Z2huZXNzc3EAfgARAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAVxAH4ACHEAfgAccQB+AB1xAH4AHnEAfgAfdXEAfgAGAAAABXEAfgAhc3EAfgAiQAAAAAAAAABxAH4AJXEAfgAndAAkbWFnaWNlbmNoOmNoZXN0cGxhdGVfYXJtb3JfdG91Z2huZXNzeHgAc3EAfgAmAAAA+nQAInsKICAgICJtYWdpY2VuY2g6Zm9yY2VfbGV2ZWwiOiAxCn0=
+        hand:
+          type: diamond_sword
+          amount: 1
+          durability: 217
+          editable_components:
+            lore: §6★★★☆☆☆☆☆☆☆
+            edited: false
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAAJbWV0YS10eXBldAAEbG9yZXQAE2F0dHJpYnV0ZS1tb2RpZmllcnN0AAZEYW1hZ2V0ABJQdWJsaWNCdWtraXRWYWx1ZXN1cQB+AAYAAAAGdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAAF0AKZ7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IuKYheKYheKYheKYhuKYhuKYhuKYhuKYhuKYhuKYhiIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImdvbGQifV19eHNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAnQAFm1pbmVjcmFmdDphdHRhY2tfc3BlZWRzcQB+ABEAAAABdwQAAAABc3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIdAAGYW1vdW50dAAEc2xvdHQACW9wZXJhdGlvbnQAA2tleXVxAH4ABgAAAAV0ACZvcmcuYnVra2l0LmF0dHJpYnV0ZS5BdHRyaWJ1dGVNb2RpZmllcnNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cD/TMzMzMzM0dAAEaGFuZHNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cQB+ACMAAAAAdAAcbWFnaWNlbmNoOnN3b3JkX2F0dGFja19zcGVlZHh0ABdtaW5lY3JhZnQ6YXR0YWNrX2RhbWFnZXNxAH4AEQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAhxAH4AHHEAfgAdcQB+AB5xAH4AH3VxAH4ABgAAAAVxAH4AIXNxAH4AIkAcAAAAAAAAcQB+ACVxAH4AJ3QAHW1hZ2ljZW5jaDpzd29yZF9hdHRhY2tfZGFtYWdleHgAc3EAfgAmAAAA2XQAInsKICAgICJtYWdpY2VuY2g6Zm9yY2VfbGV2ZWwiOiAzCn0=
+        helmet:
+          type: diamond_helmet
+          amount: 1
+          durability: 250
+          editable_components:
+            lore: §6★☆☆☆☆☆☆☆☆☆
+            edited: false
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAAJbWV0YS10eXBldAAEbG9yZXQAE2F0dHJpYnV0ZS1tb2RpZmllcnN0AAZEYW1hZ2V0ABJQdWJsaWNCdWtraXRWYWx1ZXN1cQB+AAYAAAAGdAAISXRlbU1ldGF0AAVBUk1PUnNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABdACmeyJ0ZXh0IjoiIiwiZXh0cmEiOlt7InRleHQiOiLimIXimIbimIbimIbimIbimIbimIbimIbimIbimIYiLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwiY29sb3IiOiJnb2xkIn1dfXhzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAN0ABRtaW5lY3JhZnQ6bWF4X2hlYWx0aHNxAH4AEQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAh0AAZhbW91bnR0AARzbG90dAAJb3BlcmF0aW9udAADa2V5dXEAfgAGAAAABXQAJm9yZy5idWtraXQuYXR0cmlidXRlLkF0dHJpYnV0ZU1vZGlmaWVyc3IAEGphdmEubGFuZy5Eb3VibGWAs8JKKWv7BAIAAUQABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwP/AAAAAAAAB0AARoZWFkc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhxAH4AIwAAAAB0ABttYWdpY2VuY2g6aGVsbWV0X21heF9oZWFsdGh4dAAPbWluZWNyYWZ0OmFybW9yc3EAfgARAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAVxAH4ACHEAfgAccQB+AB1xAH4AHnEAfgAfdXEAfgAGAAAABXEAfgAhc3EAfgAiQAgAAAAAAABxAH4AJXEAfgAndAAWbWFnaWNlbmNoOmhlbG1ldF9hcm1vcnh0ABltaW5lY3JhZnQ6YXJtb3JfdG91Z2huZXNzc3EAfgARAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAVxAH4ACHEAfgAccQB+AB1xAH4AHnEAfgAfdXEAfgAGAAAABXEAfgAhc3EAfgAiQAAAAAAAAABxAH4AJXEAfgAndAAgbWFnaWNlbmNoOmhlbG1ldF9hcm1vcl90b3VnaG5lc3N4eABzcQB+ACYAAAD6dAAiewogICAgIm1hZ2ljZW5jaDpmb3JjZV9sZXZlbCI6IDEKfQ==
+        leggings:
+          type: diamond_leggings
+          amount: 1
+          durability: 250
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAGRGFtYWdldXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAFQVJNT1JzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAA+g==
+      inventory:
+        '0':
+          type: diamond_sword
+          amount: 1
+          durability: 217
+          editable_components:
+            lore: §6★★★☆☆☆☆☆☆☆
+            edited: false
+          meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAAJbWV0YS10eXBldAAEbG9yZXQAE2F0dHJpYnV0ZS1tb2RpZmllcnN0AAZEYW1hZ2V0ABJQdWJsaWNCdWtraXRWYWx1ZXN1cQB+AAYAAAAGdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAAF0AKZ7InRleHQiOiIiLCJleHRyYSI6W3sidGV4dCI6IuKYheKYheKYheKYhuKYhuKYhuKYhuKYhuKYhuKYhiIsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJjb2xvciI6ImdvbGQifV19eHNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAnQAFm1pbmVjcmFmdDphdHRhY2tfc3BlZWRzcQB+ABEAAAABdwQAAAABc3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIdAAGYW1vdW50dAAEc2xvdHQACW9wZXJhdGlvbnQAA2tleXVxAH4ABgAAAAV0ACZvcmcuYnVra2l0LmF0dHJpYnV0ZS5BdHRyaWJ1dGVNb2RpZmllcnNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cD/TMzMzMzM0dAAEaGFuZHNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cQB+ACMAAAAAdAAcbWFnaWNlbmNoOnN3b3JkX2F0dGFja19zcGVlZHh0ABdtaW5lY3JhZnQ6YXR0YWNrX2RhbWFnZXNxAH4AEQAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAhxAH4AHHEAfgAdcQB+AB5xAH4AH3VxAH4ABgAAAAVxAH4AIXNxAH4AIkAcAAAAAAAAcQB+ACVxAH4AJ3QAHW1hZ2ljZW5jaDpzd29yZF9hdHRhY2tfZGFtYWdleHgAc3EAfgAmAAAA2XQAInsKICAgICJtYWdpY2VuY2g6Zm9yY2VfbGV2ZWwiOiAzCn0=
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      type: PLAYER
+    traitnames: spawned,scoreboardtrait,skintrait,equipment,location,attributetrait,inventory,type,chunktickettrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

@@ -1,0 +1,4 @@
+name: WhiteForest
+version: ${version}
+main: org.prin.WhiteForest.WhiteForest
+api-version: '1.21'

@@ -1,0 +1,6 @@
+discord:
+  token: "copy ur token"
+  channelId: "채널_ID"
+  activity: "마인크래프트 서버"
+  status: "ONLINE" # ONLINE, IDLE, DND 등
+  logJoinMessages: true

@@ -65,7 +65,7 @@ class EnderRegen(
                     .forEach { p ->
                         p.sendMessage("§a엔더 드래곤이 격파되었습니다!")
                     }
-                
+
                 // 2️⃣ 115초 뒤부터 카운트다운 시작
                 for (i in 5 downTo 1) {
                     Bukkit.getScheduler().runTaskLater(plugin, Runnable {
@@ -158,7 +158,6 @@ class EnderRegen(
         }
     }
 
-
     fun endWorldGenerator() {
         val endWorldName = "world_the_end"
         val endWorld = Bukkit.getWorld(endWorldName)
@@ -177,7 +176,6 @@ class EnderRegen(
 
     }
 
-
     @EventHandler
     fun onDragonSpawn(event: CreatureSpawnEvent) {
         val entity = event.entity
@@ -190,7 +188,6 @@ class EnderRegen(
             plugin.logger.info("엔더 드래곤 체력이 800으로 설정되었습니다!")
         }
     }
-
 }
 
 // 확장함수: NamespacedKey 간단 생성

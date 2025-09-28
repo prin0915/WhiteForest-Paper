@@ -26,7 +26,6 @@ import org.prin.WhiteForest.world.NetherPortal
 import java.util.*
 
 private lateinit var pylon: Pylon
-
 class WhiteForest : JavaPlugin() {
 
     lateinit var discordBot: DiscordBotOn
@@ -126,6 +125,8 @@ class WhiteForest : JavaPlugin() {
         logger.info("MagicEnch 활성화됨!")
 
 
+        server.pluginManager.registerEvents(NBTMigrationListener(this), this)
+        logger.info("마이그레이션 필수 활성화됨")
 
         val notifier = EndPortalNotifier(this)
         notifier.start()

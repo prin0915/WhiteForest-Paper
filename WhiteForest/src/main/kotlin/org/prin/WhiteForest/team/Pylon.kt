@@ -432,56 +432,65 @@ class Pylon(
     }
 
     fun joinTeam(playerUUID: UUID, teamOwnerUUID: UUID) {
-        val newTeam = teams[teamOwnerUUID] ?: return
-        val victimTeam = teams[playerUUID]
+        plugin.logger.info("=== joinTeam 호출 ===")
+        plugin.logger.info("플레이어: $playerUUID, 합류하려는 팀장: $teamOwnerUUID")
 
-        // 킬러 팀의 등록된 파일런 상태 확인 (활성화된 파일런이 하나라도 있으면 합체 불가)
-        val registeredPylons = newTeam.pylonLocations
-        val isAnyPylonActive = registeredPylons.any { activeBeacons.contains(it) }
+        val newTeam = teams[teamOwnerUUID]
+        if (newTeam == null) {
+            plugin.logger.info("합류할 팀을 찾을 수 없습니다. 함수 종료")
+            return
+        }
+        plugin.logger.info("합류할 팀 발견: 팀장 $teamOwnerUUID, 멤버 ${newTeam.memberUUIDs}")
+
+        // 플레이어가 현재 속한 팀(victimTeam) 확인
+        val victimTeam = teams.values.find { it.ownerUUID == playerUUID || it.memberUUIDs.contains(playerUUID) }
+        plugin.logger.info("플레이어 현재 팀: ${victimTeam?.ownerUUID}, 멤버 ${victimTeam?.memberUUIDs}")
+
+        // 합류 불가 조건: 플레이어 자신의 팀에 활성 파일런이 하나라도 있으면 합류 불가
+        val isAnyPylonActive = victimTeam?.pylonLocations?.any { activeBeacons.contains(it) } ?: false
+        plugin.logger.info("플레이어 팀 활성 파일런 존재 여부: $isAnyPylonActive")
 
         if (isAnyPylonActive) {
-            // 파일런이 하나라도 활성화되어 있으면 합체 불가
-            // 기존 팀에서 제거 처리
-            if (victimTeam != null) {
-                if (victimTeam.ownerUUID == playerUUID) {
-                    teams.remove(playerUUID)
-                } else {
-                    victimTeam.memberUUIDs.remove(playerUUID)
-                }
-                saveTeams()
-            }
+            plugin.logger.info("플레이어 자신의 팀에 활성 파일런이 있어 합류할 수 없습니다.")
             return
         }
 
-        // 기존 팀 처리 (죽은 사람 팀 제거)
+        // 기존 팀 처리 (플레이어가 팀에 속해 있는 경우)
         if (victimTeam != null) {
             if (victimTeam.ownerUUID == playerUUID) {
-                // 팀장인 경우 팀 제거 + 파일런도 새 팀으로 이동
                 val oldPylons = victimTeam.pylonLocations.toList()
                 victimTeam.pylonLocations.clear()
                 teams.remove(playerUUID)
+                plugin.logger.info("플레이어가 팀장인 경우 기존 팀 제거, 파일런 이동: $oldPylons")
 
-                // 파일런 이동
                 newTeam.pylonLocations.addAll(oldPylons)
-                // activeBeacons 반영
                 activeBeacons.addAll(oldPylons)
+                plugin.logger.info("새 팀으로 파일런 이동 완료. 활성 파일런 반영: $activeBeacons")
             } else {
-                // 멤버인 경우 팀에서 제거
                 victimTeam.memberUUIDs.remove(playerUUID)
+                plugin.logger.info("플레이어가 기존 팀 멤버인 경우 팀에서 제거")
             }
         }
 
         // 새 팀에 합류
         if (!newTeam.memberUUIDs.contains(playerUUID)) {
             newTeam.memberUUIDs.add(playerUUID)
+            plugin.logger.info("플레이어 새 팀에 합류 완료")
+        } else {
+            plugin.logger.info("플레이어 이미 새 팀에 포함되어 있음")
         }
 
         saveTeams()
+        plugin.logger.info("팀 상태 저장 완료")
 
+        // 플레이어에게 메시지 전송 (온라인일 경우)
         plugin.server.getPlayer(playerUUID)?.sendMessage(
             "당신은 ${plugin.server.getOfflinePlayer(teamOwnerUUID).name} 팀으로 합류했습니다!"
         )
+        plugin.logger.info("플레이어에게 메시지 전송 완료")
     }
+
+
 
 
     fun isPylonActive(key: String): Boolean {
@@ -509,5 +518,5 @@ data class PylonData(
     val location: org.bukkit.Location,
     val member: List<UUID> = listOf(),
 
-    )
+)
 

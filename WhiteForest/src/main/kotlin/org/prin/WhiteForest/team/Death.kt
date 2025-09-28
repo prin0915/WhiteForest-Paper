@@ -53,7 +53,7 @@ class Death(
         if (killer is Player) { // 가해자가 플레이어인지 확인
             val killerUUID = killer.uniqueId  // UUID
             val victimUUID = victim.uniqueId  // UUID
-
+            plugin.logger.info("${killerUUID},${victimUUID}")
             pylon.joinTeam(victimUUID, killerUUID)
         }
 

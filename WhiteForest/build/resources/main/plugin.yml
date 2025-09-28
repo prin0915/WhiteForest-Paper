@@ -1,4 +1,4 @@
 name: WhiteForest
-version: 1.16.19
+version: 1.16.23
 main: org.prin.WhiteForest.WhiteForest
 api-version: '1.21'

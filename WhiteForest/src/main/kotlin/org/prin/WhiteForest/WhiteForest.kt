@@ -157,12 +157,26 @@ class WhiteForest : JavaPlugin() {
 
         // 마지막 위치가 네더라면 개인 네더로 이동
         if (lastWorld.environment == World.Environment.NETHER) {
-            val netherWorld = getOrCreateNether(player)
+            // 팀의 owner UUID 가져오기 (없으면 자기 자신)
+            val ownerUUID = pylon.getOwnerUUIDByPlayer(player.uniqueId) ?: player.uniqueId
+            val worldName = "nether_${ownerUUID}"
+
+            var netherWorld = Bukkit.getWorld(worldName)
+            if (netherWorld == null) {
+                netherWorld = WorldCreator(worldName)
+                    .environment(World.Environment.NETHER)
+                    .type(WorldType.NORMAL)
+                    .createWorld()
+            }
+
+            netherWorld?.setGameRule(org.bukkit.GameRule.KEEP_INVENTORY, true)
+
             val newLoc = player.location.clone()
             newLoc.world = netherWorld
             player.teleport(newLoc)
         }
     }
+
 
     private fun getOrCreateNether(player: Player): World? {
         val worldName = "nether_${player.uniqueId}"

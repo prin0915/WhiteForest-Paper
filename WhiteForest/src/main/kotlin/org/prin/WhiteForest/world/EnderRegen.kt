@@ -185,7 +185,7 @@ class EnderRegen(
                 maxHealthAttr.baseValue = 800.0   // 최대 체력 600으로 변경
                 entity.health = 800.0             // 현재 체력도 600으로 맞춤
             }
-            plugin.logger.info("엔더 드래곤 체력이 800으로 설정되었습니다!")
+            //plugin.logger.info("엔더 드래곤 체력이 800으로 설정되었습니다!")
         }
     }
 }

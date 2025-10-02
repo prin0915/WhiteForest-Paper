@@ -31,14 +31,14 @@ class DiscordVerify(private val plugin: JavaPlugin, private val discordBot: Disc
         dataFile = File(plugin.dataFolder, "playerRegistration.yml")
         if (!dataFile.exists()) {
             dataFile.createNewFile()
-            plugin.logger.info("[DiscordVerify] playerRegistration.yml 파일 생성 완료")
+            //plugin.logger.info("[DiscordVerify] playerRegistration.yml 파일 생성 완료")
         }
 
         // discord.yml 경로
         discordFile = File(plugin.dataFolder, "discord.yml")
         if (!discordFile.exists()) {
             plugin.saveResource("discord.yml", false)
-            plugin.logger.info("[DiscordVerify] discord.yml 생성 완료")
+           // plugin.logger.info("[DiscordVerify] discord.yml 생성 완료")
         }
         discordConfig = YamlConfiguration.loadConfiguration(discordFile)
 
@@ -75,11 +75,11 @@ class DiscordVerify(private val plugin: JavaPlugin, private val discordBot: Disc
         discordIdMap[discordId] = mcKey
         saveData() // 저장
 
-        plugin.logger.info("[DiscordRegister] 디스코드 ID $discordId -> MC닉네임 $mcName, 표시닉네임 $displayName 등록됨.")
+        //plugin.logger.info("[DiscordRegister] 디스코드 ID $discordId -> MC닉네임 $mcName, 표시닉네임 $displayName 등록됨.")
 
         Bukkit.getPlayerExact(mcName)?.let { player ->
             applyDisplayName(player)
-            player.sendMessage("§a[인증 완료] 닉네임이 `$displayName`로 등록되었습니다!")
+            //player.sendMessage("§a[인증 완료] 닉네임이 `$displayName`로 등록되었습니다!")
         }
 
         // 임베드 전송
@@ -121,9 +121,9 @@ class DiscordVerify(private val plugin: JavaPlugin, private val discordBot: Disc
                 .addField("마인크래프트", "$mcName ($mcUUID)", false).addField("닉네임", displayName, false).setImage(mcFaceUrl)
                 .build()
 
-        channel.sendMessageEmbeds(embed).queue(
-            { plugin.logger.info("임베드 전송 성공") },
-            { error -> plugin.logger.warning("임베드 전송 실패: ${error.message}") })
+        //channel.sendMessageEmbeds(embed).queue(
+        //    { plugin.logger.info("임베드 전송 성공") },
+        //    { error -> plugin.logger.warning("임베드 전송 실패: ${error.message}") })
     }
 
     fun isRegistered(mcName: String): Boolean = registeredPlayers.containsKey(mcName.lowercase())
@@ -146,7 +146,7 @@ class DiscordVerify(private val plugin: JavaPlugin, private val discordBot: Disc
 
     fun createPrivateChannelForUser(discordId: String, displayName: String) {
         val guild = discordBot.jda?.guilds?.firstOrNull() ?: run {
-            plugin.logger.warning("[DiscordRegister] 길드 정보를 가져올 수 없습니다.")
+        //    plugin.logger.warning("[DiscordRegister] 길드 정보를 가져올 수 없습니다.")
             return
         }
 
@@ -154,7 +154,7 @@ class DiscordVerify(private val plugin: JavaPlugin, private val discordBot: Disc
             val channelName = "private-${displayName.lowercase()}"
 
             if (guild.textChannels.any { it.name.equals(channelName, ignoreCase = true) }) {
-                plugin.logger.info("[DiscordRegister] 채널 $channelName 이미 존재")
+            //    plugin.logger.info("[DiscordRegister] 채널 $channelName 이미 존재")
                 return@queue
             }
 
@@ -162,7 +162,7 @@ class DiscordVerify(private val plugin: JavaPlugin, private val discordBot: Disc
                 .addPermissionOverride(guild.publicRole, null, EnumSet.of(Permission.VIEW_CHANNEL))
                 .addPermissionOverride(member, EnumSet.of(Permission.VIEW_CHANNEL), null).queue({ channel ->
                     channel.sendMessage("환영합니다, ${member.effectiveName}! 여기는 당신의 개인 채널입니다.").queue()
-                    plugin.logger.info("[DiscordRegister] 개인 채널 $channelName 생성 완료.")
+                    //plugin.logger.info("[DiscordRegister] 개인 채널 $channelName 생성 완료.")
                 }, { error ->
                     plugin.logger.warning("[DiscordRegister] 채널 생성 실패: ${error.message}")
                 })
@@ -194,7 +194,7 @@ class DiscordVerify(private val plugin: JavaPlugin, private val discordBot: Disc
 
     fun sendPrivateMessage(discordId: String, message: String) {
         val guild = discordBot.jda?.guilds?.firstOrNull() ?: run {
-            plugin.logger.warning("sendPrivateMessage: 길드 정보 없음")
+            //plugin.logger.warning("sendPrivateMessage: 길드 정보 없음")
             return
         }
 
@@ -205,13 +205,13 @@ class DiscordVerify(private val plugin: JavaPlugin, private val discordBot: Disc
         val channel = guild.textChannels.find { it.name.equals(channelName, ignoreCase = true) }
 
         if (channel == null) {
-            plugin.logger.warning("sendPrivateMessage: 채널 $channelName 존재하지 않음")
+            //plugin.logger.warning("sendPrivateMessage: 채널 $channelName 존재하지 않음")
             return
         }
 
-        channel.sendMessage(message).queue(
-            { plugin.logger.info("sendPrivateMessage: 메시지 전송 성공 to $channelName") },
-            { error -> plugin.logger.warning("sendPrivateMessage 실패: ${error.message}") })
+        //channel.sendMessage(message).queue(
+        //    { plugin.logger.info("sendPrivateMessage: 메시지 전송 성공 to $channelName") },
+        //    { error -> plugin.logger.warning("sendPrivateMessage 실패: ${error.message}") })
     }
 
     fun getDisplayName(mcName: String): String? {

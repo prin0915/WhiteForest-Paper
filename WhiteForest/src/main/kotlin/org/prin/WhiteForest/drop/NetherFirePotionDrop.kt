@@ -27,7 +27,7 @@ class NetherFirePotionDrop(private val plugin: JavaPlugin) : Listener {
                 // 1시간 지속 (20 ticks * 60초 * 60분)
                 val durationTicks = 20 * 60 * 60
                 meta.addCustomEffect(PotionEffect(PotionEffectType.FIRE_RESISTANCE, durationTicks, 0), true)
-                meta.setDisplayName("§6네더 화염저항 포션")
+                meta.setDisplayName("§6흑요석 포션")
 
                 potion.itemMeta = meta
                 event.drops.add(potion)

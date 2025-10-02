@@ -75,13 +75,13 @@ class DiscordBotOn(private val plugin: JavaPlugin) : ListenerAdapter() {
     // -----------------------------
     // 메시지 이벤트 처리
     override fun onMessageReceived(event: MessageReceivedEvent) {
-        println("[DEBUG] Message received from ${event.author.name} in channel ${event.channel.id}: ${event.message.contentRaw}")
-        println("[DEBUG] registerChannelId='$registerChannelId'")
+        //println("[DEBUG] Message received from ${event.author.name} in channel ${event.channel.id}: ${event.message.contentRaw}")
+        //println("[DEBUG] registerChannelId='$registerChannelId'")
 
         if (event.author.isBot) return
 
+        // 다른 채널 무시
         if (registerChannelId.isNotBlank() && event.channel.id.trim() != registerChannelId.trim()) {
-            println("[DEBUG] 채널 ID 불일치, 무시됨")
             return
         }
 
@@ -92,17 +92,17 @@ class DiscordBotOn(private val plugin: JavaPlugin) : ListenerAdapter() {
 
         when (args[0].trim()) {
             "!등록" -> {
-                println("[DEBUG] !등록 명령 감지")
+                //println("[DEBUG] !등록 명령 감지")
                 val mcName = args.getOrNull(1) ?: return
                 val displayName = args.getOrNull(2) ?: mcName
                 if (verifyHandler == null) {
-                    println("[DEBUG] verifyHandler가 null임! 등록 처리 불가")
+                    //println("[DEBUG] verifyHandler가 null임! 등록 처리 불가")
                     return
                 }
                 verifyHandler?.handleRegisterCommand(event.author.id, mcName, displayName)
             }
             "!등록해제" -> {
-                println("[DEBUG] !등록해제 명령 감지")
+                //("[DEBUG] !등록해제 명령 감지")
                 val mcName = args.getOrNull(1) ?: return
                 verifyHandler?.removeRegistration(mcName)
             }

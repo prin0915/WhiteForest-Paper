@@ -179,7 +179,9 @@ class WhiteForest : JavaPlugin() {
 
 
     private fun getOrCreateNether(player: Player): World? {
-        val worldName = "nether_${player.uniqueId}"
+        val ownerUUID = pylon.getOwnerUUIDByPlayer(player.uniqueId) ?: player.uniqueId
+        val worldName = "nether_${ownerUUID}"
+
         var netherWorld = Bukkit.getWorld(worldName)
         if (netherWorld == null) {
             netherWorld = WorldCreator(worldName)
@@ -192,7 +194,9 @@ class WhiteForest : JavaPlugin() {
     }
 
     private fun loadPlayerNether(playerUUID: UUID) {
-        val worldName = "nether_$playerUUID"
+        val ownerUUID = pylon.getOwnerUUIDByPlayer(playerUUID) ?: playerUUID
+        val worldName = "nether_${ownerUUID}"
+
         if (Bukkit.getWorld(worldName) == null) {
             val netherWorld = WorldCreator(worldName)
                 .environment(World.Environment.NETHER)

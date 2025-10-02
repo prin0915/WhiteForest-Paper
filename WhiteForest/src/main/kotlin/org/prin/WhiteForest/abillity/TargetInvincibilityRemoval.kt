@@ -22,7 +22,11 @@ class TargetInvincibilityRemoval(private val plugin: JavaPlugin) : Listener {
         val weapon = attacker.inventory.itemInMainHand
         val forceLevel = getForceLevel(weapon)
 
-        target.noDamageTicks = 0
+        // Runnable 사용
+        val safeTarget = target
+        plugin.server.scheduler.runTask(plugin, Runnable {
+            safeTarget.noDamageTicks = 0
+        })
     }
 
     private fun getForceLevel(item: org.bukkit.inventory.ItemStack): Int {
